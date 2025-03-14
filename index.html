@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLUSH - Stock Photos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./splide/splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <script src="./splide/splide.min.js" defer></script>
+    <script src="./Script.js" defer></script>
+</head>
+<body>
+    <!-- Top Sale Banner -->
+    <div class="sale-banner">
+        SUPER SALE UP TO 40% OFF
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-left">
+            <a href="#">SHOP</a>
+            <a href="#">COMMUNITY</a>
+        </div>
+        <div class="nav-center">
+            <img class="logo" src="./images/logo plush.png" alt="">
+        </div>
+        <div class="nav-right">
+            <a href="#"><img src="./images/account.png" alt="User"></a>
+            <a href="#"><img src="./images/search.png" alt="Search"></a>
+            <a href="#"><img src="./images/cart.png" alt="Cart"></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h2>Stock photos</h2>
+            <p>John Wick is on the run after killing a member of the international assassins' guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.</p>
+            <a href="#" class="cta-button"><i class="fa-solid fa-circle-play"></i> Explore</a>
+        </div>
+    </section>
+
+    <div class="search-container">
+        <input type="text" placeholder="Laptop">
+        <button><img src="./images/search.png" alt="Search"></button>
+    </div>
+
+    <!-- Product Section -->
+    <div class="product-container">
+        <img src="./images/Thumbnails.png" alt="Laptop">
+        <div class="product-info">
+            <h2>Alt</h2>
+            <p class="author">Photographer</p>
+            <a href="#" class="explore-btn">EXPLORE MORE</a>
+        </div>
+    </div>
+
+
+    <!-- Splide Slider Container-1-->
+    <div class="slider-1">
+    <h2 class="slide1">Similar Results</h2>
+    <section class="splide" id="similar-results-slider">
+        <div class="splide__track">
+            <ul class="splide__list" id="slider-list">
+                
+            </ul>
+        </div>
+    </section>
+    </div>
+
+
+    <!-- Splide Slider Container-2-->
+    <div class="slider-1" id="wishlist-section">
+        <h2 class="slide1">Favorites List</h2>
+        <section class="splide" id="wishlist-slider">
+            <div class="splide__track">
+                <ul class="splide__list" id="wishlist-slider-list"></ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
